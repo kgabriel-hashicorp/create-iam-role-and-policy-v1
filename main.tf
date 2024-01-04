@@ -23,8 +23,8 @@ resource "aws_s3_bucket" "example_bucket" {
   }
 }
 
-module "iam-policy-and-role-v3" {
-  source  = "tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iam-policy-and-role-v3/aws"
+module "iampolicyandrole_v3" {
+  source  = "tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicyandrole_v3/aws"
   version = "1.0.0"
-  role_name = "test-role"
+  role_name = "kg-test-role"
 }
