@@ -25,6 +25,6 @@ resource "aws_s3_bucket" "example_bucket" {
 
 module "iampolicyandrolev3" {
   source    = "tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iam-policy-and-role-v3/aws"
-  version   = "1.0.0"
+  version   = "1.0.1"
   role_name = "kg-test-role"
 }
