@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "example_bucket" {
   }
 }
 
-module "iampolicyandrole_v3" {
+module "iampolicyandrolev3" {
   source  = "tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicyandrole_v3/aws"
   version = "1.0.0"
   role_name = "kg-test-role"
