@@ -23,7 +23,7 @@ This will be using a module to create an IAM role and policy
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_iampolicyandrolev3"></a> [iampolicyandrolev3](#module\_iampolicyandrolev3) | tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iam-policy-and-role-v3/aws | 1.0.0 |
-| <a name="module_test_s3_bucket"></a> [test\_s3\_bucket](#module\_test\_s3\_bucket) | terraform-aws-modules/s3-bucket/aws | 3.14.1 |
+| <a name="module_test_s3_bucket"></a> [test\_s3\_bucket](#module\_test\_s3\_bucket) | terraform-aws-modules/s3-bucket/aws | 3.15.1 |
 
 ## Resources
 
